@@ -1,0 +1,469 @@
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+}
+
+body {
+      font-family: 'IBM Plex Sans Condensed', sans-serif;
+      font-weight: bold;
+}
+
+header{
+      background: url(../images/About_Background.png) no-repeat;
+      width: 100%;
+      height: 100vh;
+      background-size: cover;
+      }
+
+.content {
+      width: 94%;
+      margin: 4em auto;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: justify;
+}
+
+.logo {
+      line-height: 60px;
+      position: fixed;
+      float: left;
+      margin: 16px 46px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 2px;
+}
+
+.logo img{
+      width: 85%; 
+      padding-left: 14%; 
+      padding-top: 2%
+}
+
+.text-header{
+      padding-top: 15%; 
+      padding-left: 5%
+}
+
+.text-header h1{
+      color: white; 
+      font-family: 'Volkhov', serif;
+}
+
+.text-header p{
+      color: white; 
+      font-family: 'IBM Plex Sans Condensed',sans-serif; 
+      font-weight :400; 
+      margin-right: 65%;
+}
+
+nav {
+      position: fixed;
+      width: 100%;
+      line-height: 60px;
+}
+
+nav ul {
+      line-height: 60px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+}
+
+.navbar-default.scrolled{
+    background:#000;
+  }
+
+  .navbar-fixed-top.scrolled {
+    background-color: #7530BC !important;
+    transition: background-color 200ms linear;
+  }
+
+nav ul li {
+      display: inline-block;
+      padding: 16px 40px;
+}
+
+nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+}
+
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row .column-f {
+  float: left;
+  width: 33.33%;
+}
+.footer{
+      width: 100%;
+      float: left;
+      padding: 0;
+      margin: 0 auto;
+      float: left;
+      position:relative;
+}
+
+.footer .top{
+      background-color: #7530BC;
+      padding-left: 5%; 
+      padding-bottom: 5%; 
+      padding-right: 12%;
+      float: left;
+}
+
+.footer .top h1{
+      padding-top: 7%; 
+      color: #FFFFFF;
+      font-family: 'Volkhov', serif;
+}
+
+.footer .top p{
+      color: #FFFFFF;
+      font-family: 'IBM Plex Sans Condensed',sans-serif; 
+      font-weight :400; 
+      margin-right: 40%;
+}
+
+.email-input{
+      display: flex; 
+      position: relative;
+}
+
+.email-input input{
+      width: 355px; 
+      height: 39px; 
+      background-color: transparent; 
+      border-color: white; 
+      margin-right: 2%; 
+      border-radius: 0;
+}
+
+.email-input button{
+      background-color: white;
+      border:1px solid white; 
+      width: 234px; 
+      height: 44px;
+}
+
+::placeholder{
+    color: #8B53C5;
+}
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.footer-menu{
+    list-style-type: none;
+    color: white;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-weight: 400;
+    padding-bottom: 0.5em;
+}
+
+i img{
+    height: 35px;
+    padding-right: 2%;
+}
+
+.footer{
+    float: left;
+padding: 0;
+margin: 0 auto;
+position:relative;
+}
+
+.Newsletter{
+      position:absolute;
+      top: 17%;
+      bottom: 40%;
+      margin-left: 50%;
+      width: 40%;
+}
+
+.footer .bottom{
+      background-color: #2A2A2A; 
+      padding-left: 5%; 
+      padding-top: 2%; 
+      padding-bottom: 2%;
+  }
+
+  .bottom img{
+      padding-top: 3%;
+  }
+
+input[type=text], select, textarea {
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+  background-color: transparent;
+}
+
+input[type=submit] {
+  background-color: transparent;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: transparent;
+}
+.form{
+  width:33%;
+  padding-top: 10%;
+  padding-left: 5%;
+}
+label{
+  color: white;
+}
+
+.column-f p{
+      color: white; 
+      font-family: 'IBM Plex Sans Condensed', sans-serif; 
+      font-weight :400;
+}
+.column-f h4{
+      color: white; 
+      font-family: 'IBM Plex Sans Condensed', sans-serif; 
+      font-weight :bold;
+}
+.footer-menu-ul{
+      columns: 2; 
+      -webkit-columns: 2;
+      -moz-columns: 2; 
+      padding-left: 0%;
+}
+
+.inline{
+  display: block;
+}
+
+.fullwidth{
+  width: 100%
+}
+
+.fullwidth input{
+  width: 87%
+}
+
+.inline .country{
+  padding-left: 2%
+}
+
+textarea{
+  height:200px; 
+  width: 96%
+}
+
+.submit-button button{
+  background-color: white;
+  border:1px solid white; 
+  width: 234px; 
+  height: 44px;
+}
+
+.mobile-container{
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 600px) and (max-width: 767px) and (max-width: 1024px){
+      header{
+          background: url(../images/about_mobile.png) no-repeat;
+          width: 100%;
+          background-size: cover;
+          left:30%;
+      }
+      .game-dev{
+          width: 100%;
+          padding-right: 5%;
+      }
+      .row-blur{
+          padding: 5%;
+      }
+      .row-blur img{
+          width: 190%;
+      }
+      .column {
+          width: 100%;
+      }
+      .column .desc{
+          padding-right: 5%;
+      }
+      .column .developer{
+          width: 100%;
+      }
+      .column2{
+          width: 100%;
+      }
+      .column-projects{
+          width: 100%;
+      }
+      .inline button{
+          right: 5%; 
+          margin-top: 7%;
+      }
+      .text{
+          padding-right: 5%;
+      }
+      .text2{
+          padding-left: 0%;
+          padding-right: 5%;
+      }
+      .column2 img{
+          width: 90% !important;
+      }
+      .inline-left h2{
+          padding-left: 0%;
+      }
+      .inline-left button{
+          left: 61%;
+          margin-top: 7%;
+      }
+      p{
+          padding-left: 0%;
+      }
+      hr{
+          visibility: hidden;
+      }
+      .explore{
+          padding-left: 0%;
+      }
+      .top{
+          width: 100%;
+      }
+      .top h1{
+          font-size: 25px;
+      }
+      .Newsletter{
+          visibility: hidden;
+      }
+      .footer .top p{
+          margin-right: 10%;
+      }
+      .email-input{
+          width: 85%;
+      }
+      .row .column-f{
+          width: 100%;
+      }
+      .column-f p{
+          width: 50%;
+      }
+      
+      .navbar{
+        visibility: hidden;
+    }
+    .mobile-container {
+        visibility: visible;
+        max-width: 480px;
+        margin: auto;
+        color: white;
+        border-radius: 10px;
+      }
+      
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+      }
+      
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      .active {
+        background-color: #4CAF50;
+        color: white;
+      }
+
+      .text-header p{
+            margin-right: 5%;
+      }
+
+      .text-header{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+      }
+      .inline{
+        width: 98%;
+        display: grid !important;
+      }
+      .fullwidth{
+        width: 100%;
+        display: grid;
+      }
+      .form{
+        width: 100%;
+      }
+      input[type=text], select, textarea{
+        margin-right: 11%;
+      }
+      textarea{
+        width: 87%;
+        height: 130px;
+      }
+      .submit-button button{
+        justify-self: center;
+      }
+    }

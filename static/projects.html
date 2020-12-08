@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style_pr.css">
+    <title>
+    
+    </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+      $(function () {
+    	  $(document).scroll(function () {
+        var $nav = $(".navbar-fixed-top");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+        });
+      });
+      function hamburgerMenu() {
+        var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+      }
+    </script>
+  </head>
+  <body>
+    <header style="height: 50vh;">
+      <nav class="navbar navbar-default navbar-fixed-top" style="margin: 0 0 0 0;padding: 0 0 0 0;">
+        <div class="menu-icon">
+            <i class="fa fa-bars fa-2x"></i>
+            </div>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo-white.svg"></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="jobs.html">JOBS</a></li>
+                </ul>
+            </div>
+      </nav>
+      <div class="mobile-container">
+        <div class="topnav">
+          <a href="index.html"><img src="../images/logo-white.svg"></a>
+          <div id="myLinks">
+            <a href=about.html>ABOUT</a>
+            <a href="projects.html">PROJECTS</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="jobs.html">JOBS</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="projects">
+        <h1>Our projects</h1>
+        <h4>Browse our projects below
+          <p>
+            >
+          </p>
+        </h4>
+        <img class="overlay3d" src="images/overlay3d.png">
+      </div>
+    </main>
+    <div class="listed_pr">
+    <div class="row-projects">
+    <div  class="column-projects">
+        <div class="inline">
+            <h2>Super Game 01</h2>
+            <button>
+                <b>MOBILE GAME</b>
+            </button>
+        </div>
+        <p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo 
+            inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
+            sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, 
+            adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+        </p>
+        <p style="color: #7530BC; font-family: 'IBM Plex Sans Condensed', sans-serif; font-weight :bold; padding-top: 4.5%;">EXPLORE ></p>
+        <hr style="margin-right: 25%;">
+    </div>
+    <div class="column2">
+        <img src="images/WebsiteRender_1.png">
+    </div>
+</div>
+<div class="row-projects">
+    <div class="column2">
+        <img style="padding-top: 4%; width:112%;" src="images/WebsiteRender_3.png">
+    </div>
+    <div  class="column-projects">
+        <div class="inline-left">
+            <h2>Super Game 02</h2>
+            <button>
+                <b>MOBILE GAME</b>
+            </button>
+        </div>
+        <p class="text2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo 
+            inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
+            sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, 
+            adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+        </p>
+        <p class="explore" >EXPLORE ></p>
+        <hr style="margin-left: 33%;">
+    </div>
+</div>
+<div class="row-projects">
+  <div  class="column-projects">
+      <div class="inline">
+          <h2>Super Game 01</h2>
+          <button>
+              <b>MOBILE GAME</b>
+          </button>
+      </div>
+      <p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo 
+          inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
+          sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, 
+          adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+      </p>
+      <p style="color: #7530BC; font-family: 'IBM Plex Sans Condensed', sans-serif; font-weight :bold; padding-top: 4.5%;">EXPLORE ></p>
+      <hr style="margin-right: 25%;">
+  </div>
+  <div class="column2">
+      <img src="images/WebsiteRender_1.png">
+  </div>
+</div>
+<div class="row-projects">
+  <div class="column2">
+      <img style="padding-top: 4%; width:112%;" src="images/WebsiteRender_3.png">
+  </div>
+  <div  class="column-projects">
+      <div class="inline-left">
+          <h2>Super Game 02</h2>
+          <button>
+              <b>MOBILE GAME</b>
+          </button>
+      </div>
+      <p class="text2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo 
+          inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
+          sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, 
+          adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+      </p>
+      <p class="explore" >EXPLORE ></p>
+      <hr style="margin-left: 33%;">
+  </div>
+</div>
+<div class="row-projects">
+  <div  class="column-projects">
+      <div class="inline">
+          <h2>Super Game 01</h2>
+          <button>
+              <b>MOBILE GAME</b>
+          </button>
+      </div>
+      <p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo 
+          inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
+          sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, 
+          adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+      </p>
+      <p style="color: #7530BC; font-family: 'IBM Plex Sans Condensed', sans-serif; font-weight :bold; padding-top: 4.5%;">EXPLORE ></p>
+      <hr style="margin-right: 25%;">
+  </div>
+  <div class="column2">
+      <img src="images/WebsiteRender_1.png">
+  </div>
+</div>
+<div class="row-projects">
+  <div class="column2">
+      <img style="padding-top: 4%; width:112%;" src="images/WebsiteRender_3.png">
+  </div>
+  <div  class="column-projects">
+      <div class="inline-left">
+          <h2>Super Game 02</h2>
+          <button>
+              <b>MOBILE GAME</b>
+          </button>
+      </div>
+      <p class="text2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo 
+          inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
+          sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, 
+          adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+      </p>
+      <p class="explore">EXPLORE ></p>
+      <hr style="margin-left: 33%;">
+  </div>
+</div>
+<div class="row-projects">
+  <div  class="column-projects">
+      <div class="inline">
+          <h2>Super Game 01</h2>
+          <button>
+              <b>MOBILE GAME</b>
+          </button>
+      </div>
+      <p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo 
+          inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
+          sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, 
+          adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+      </p>
+      <p style="color: #7530BC; font-family: 'IBM Plex Sans Condensed', sans-serif; font-weight :bold; padding-top: 4.5%;">EXPLORE ></p>
+      <hr style="margin-right: 25%;">
+  </div>
+  <div class="column2">
+      <img src="images/WebsiteRender_1.png">
+  </div>
+</div>
+<div class="row-projects">
+  <div class="column2">
+      <img style="padding-top: 4%; width:112%;" src="images/WebsiteRender_3.png">
+  </div>
+  <div  class="column-projects">
+      <div class="inline-left">
+          <h2>Super Game 02</h2>
+          <button>
+              <b>MOBILE GAME</b>
+          </button>
+      </div>
+      <p class="text2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo 
+          inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
+          sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, 
+          adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+      </p>
+      <p class="explore" >EXPLORE ></p>
+      <hr style="margin-left: 33%;">
+  </div>
+</div>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div class="top"> 
+          <h1>Subscribe to our Newsletter</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <div class="email-input">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Type your email address here...">
+          <button>
+            <p style="font-family: 'IBM Plex Sans Condensed', sans-serif; font-weight :bold; color: #7530BC;">
+              SEND NOW
+            </p>
+          </button>
+          </div>
+          <div class="Newsletter">
+            <img src="images/Layer 2.svg">
+          </div>
+        </div>
+        <div class="bottom">
+          <img src="images/image.png">
+          <div class="row">
+            <div class="column-f">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+               </p>
+               <br>
+               <br>
+               <br>
+               <p>
+                NexUp.dev © 2020.
+                <br>
+                 All Rights Reserved
+               </p>
+            </div>
+            <div class="column-f">
+              <h4>USEFUL LINKS</h4>
+              <ul class="footer-menu-ul">
+                <li class="footer-menu">ABOUT</li>
+                <li class="footer-menu">OUR PROJECTS</li>
+                <li class="footer-menu">CONTACT US</li>
+                <li class="footer-menu">JOIN THE TEAM</li>
+                <li class="footer-menu">PRESS</li>
+                <li class="footer-menu"> PRIVACY POLICY</li>
+                <li class="footer-menu">FAQ</li>
+              </ul>
+            </div>
+            <div class="column-f" style="align-self: right;">
+              <h4>FOLLOW US</h4>
+              <i>
+                <img src="images/facebook.svg">
+              </i>
+              <i>
+                <img src="images/instagram.svg">
+              </i>
+              <i>
+                <img src="images/twitter.svg">
+              </i>
+              <i>
+                <img src="images/linkedin.svg">
+              </i>
+              <i>
+                <img src="images/youtube.svg">
+              </i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
