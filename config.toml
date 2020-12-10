@@ -1,4 +1,5 @@
-baseURL = "http://example.org/"
+baseURL = "https://Leopere/github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "nexup.dev"
 disableKinds = ["taxonomy", "taxonomyTerm"]
+publishDir="docs"
