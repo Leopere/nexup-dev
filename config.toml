@@ -1,4 +1,4 @@
-baseURL = "https://Leopere/github.io/"
+baseURL = "https://nexup.dev/"
 languageCode = "en-us"
 title = "nexup.dev"
 disableKinds = ["taxonomy", "taxonomyTerm"]
