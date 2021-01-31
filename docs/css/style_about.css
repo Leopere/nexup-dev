@@ -36,25 +36,25 @@ header{
 }
 
 .logo img{
-      width: 85%; 
-      padding-left: 14%; 
+      width: 85%;
+      padding-left: 14%;
       padding-top: 2%
 }
 
 .text-header{
-      padding-top: 15%; 
+      padding-top: 15%;
       padding-left: 5%
 }
 
 .text-header h1{
-      color: white; 
+      color: white;
       font-family: 'Volkhov', serif;
 }
 
 .text-header p{
-      color: white; 
-      font-family: 'IBM Plex Sans Condensed',sans-serif; 
-      font-weight :400; 
+      color: white;
+      font-family: 'IBM Plex Sans Condensed',sans-serif;
+      font-weight :400;
       margin-right: 65%;
 }
 
@@ -133,43 +133,43 @@ nav ul li a {
 
 .footer .top{
       background-color: #7530BC;
-      padding-left: 5%; 
-      padding-bottom: 5%; 
+      padding-left: 5%;
+      padding-bottom: 5%;
       padding-right: 12%;
       float: left;
 }
 
 .footer .top h1{
-      padding-top: 7%; 
+      padding-top: 7%;
       color: #FFFFFF;
       font-family: 'Volkhov', serif;
 }
 
 .footer .top p{
       color: #FFFFFF;
-      font-family: 'IBM Plex Sans Condensed',sans-serif; 
-      font-weight :400; 
+      font-family: 'IBM Plex Sans Condensed',sans-serif;
+      font-weight :400;
       margin-right: 40%;
 }
 
 .email-input{
-      display: flex; 
+      display: flex;
       position: relative;
 }
 
 .email-input input{
-      width: 355px; 
-      height: 39px; 
-      background-color: transparent; 
-      border-color: white; 
-      margin-right: 2%; 
+      width: 355px;
+      height: 39px;
+      background-color: transparent;
+      border-color: white;
+      margin-right: 2%;
       border-radius: 0;
 }
 
 .email-input button{
       background-color: white;
-      border:1px solid white; 
-      width: 234px; 
+      border:1px solid white;
+      width: 234px;
       height: 44px;
 }
 
@@ -214,9 +214,9 @@ position:relative;
 }
 
 .footer .bottom{
-      background-color: #2A2A2A; 
-      padding-left: 5%; 
-      padding-top: 2%; 
+      background-color: #2A2A2A;
+      padding-left: 5%;
+      padding-top: 2%;
       padding-bottom: 2%;
   }
 
@@ -225,12 +225,12 @@ position:relative;
   }
 
 input[type=text], select, textarea {
-  padding: 12px; 
-  border: 1px solid #ccc; 
-  border-radius: 4px; 
-  box-sizing: border-box; 
-  margin-top: 6px; 
-  margin-bottom: 16px; 
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
   resize: vertical;
   background-color: transparent;
 }
@@ -257,19 +257,19 @@ label{
 }
 
 .column-f p{
-      color: white; 
-      font-family: 'IBM Plex Sans Condensed', sans-serif; 
+      color: white;
+      font-family: 'IBM Plex Sans Condensed', sans-serif;
       font-weight :400;
 }
 .column-f h4{
-      color: white; 
-      font-family: 'IBM Plex Sans Condensed', sans-serif; 
+      color: white;
+      font-family: 'IBM Plex Sans Condensed', sans-serif;
       font-weight :bold;
 }
 .footer-menu-ul{
-      columns: 2; 
-      -webkit-columns: 2;
-      -moz-columns: 2; 
+      columns: 2;
+      -webkit-columns: 1;
+      -moz-columns: 2;
       padding-left: 0%;
 }
 
@@ -290,14 +290,14 @@ label{
 }
 
 textarea{
-  height:200px; 
+  height:200px;
   width: 96%
 }
 
 .submit-button button{
   background-color: white;
-  border:1px solid white; 
-  width: 234px; 
+  border:1px solid white;
+  width: 234px;
   height: 44px;
 }
 
@@ -338,7 +338,7 @@ textarea{
           width: 100%;
       }
       .inline button{
-          right: 5%; 
+          right: 5%;
           margin-top: 7%;
       }
       .text{
@@ -388,7 +388,7 @@ textarea{
       .column-f p{
           width: 50%;
       }
-      
+
       .navbar{
         visibility: hidden;
     }
@@ -399,17 +399,17 @@ textarea{
         color: white;
         border-radius: 10px;
       }
-      
+
       .topnav {
         overflow: hidden;
         background-color: #333;
         position: relative;
       }
-      
+
       .topnav #myLinks {
         display: none;
       }
-      
+
       .topnav a {
         color: white;
         padding: 14px 16px;
@@ -417,7 +417,7 @@ textarea{
         font-size: 17px;
         display: block;
       }
-      
+
       .topnav a.icon {
         background: black;
         display: block;
@@ -425,12 +425,12 @@ textarea{
         right: 0;
         top: 0;
       }
-      
+
       .topnav a:hover {
         background-color: #ddd;
         color: black;
       }
-      
+
       .active {
         background-color: #4CAF50;
         color: white;
